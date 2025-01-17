@@ -2,6 +2,17 @@ import express from "express";
 import bodyParser from "body-parser";
 import dotenv from "dotenv";
 import axios from "axios";
+import pg from "pg";
+
+const db = new pg.Client({
+    user: "postgres", 
+    host: "localhost",
+    database:"countries_timezone",
+    password: "2262003",
+    port: 5432
+});
+
+db.connect();
 
 dotenv.config();
 
@@ -12,16 +23,30 @@ app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.use(express.static('public'));
+app.use(bodyParser.urlencoded({extended: true}));
 
+let countries = [];
+let country = 'Amman';
 app.get('/', async (req, res) => {
 try{
-    const city = req.query.city || 'Amman';
-    const apiKey = process.env.API_KEY;
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const city = req.query.city || country;
+    const weatherApiKey = process.env.WEATHER_API_KEY;
+    const weatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}&units=metric`;
 
+    const timeApiKey = process.env.TIME_API_KEY; 
+    const zone = "Asia/Amman"; 
+    const timeURL = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeApiKey}&format=json&by=zone&zone=${zone}`;
 
-    const response = await axios.get(url);
-    res.render('index', {weather: response.data});
+    const result = await db.query("SELECT * FROM capital_timezones");
+    countries = result.rows;
+    console.log(result.rows);
+    const firstResponse = await axios.get(weatherURL);
+    const secondResponse = await axios.get(timeURL)
+    res.render('index', {
+        weather: firstResponse.data,
+        timeZone: secondResponse.data,
+        countries: countries
+    });
 }
 catch(error)
 {
