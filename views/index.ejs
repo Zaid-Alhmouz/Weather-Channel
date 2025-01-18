@@ -6,13 +6,26 @@
     <title>Weather Forecast</title>
 </head>
 <body>
-    <h1>Weather Forecast</h1>
-    <pre><%= JSON.stringify(weather, null, 2) %></pre>
-    <h2>Time Zone</h2>
-    <pre><%= JSON.stringify(timeZone, null, 2) %></pre>
-    <h3>Countries:</h3>
-    <% countries.forEach(country => {%>
-    <p><%= country.timezone %></p>
-    <% }) %> 
+<header>
+    <div class = "title">
+    <p>The Weather Channel</p>
+    </div>
+<div class = "logo">
+
+</div>
+</header>
+<main>
+    <div class = "current-day-forecast">
+
+    </div>
+
+    <div class = "five-days-forecast">
+
+    </div>
+</main>
+
+<footer>
+    
+</footer>
 </body>
 </html>

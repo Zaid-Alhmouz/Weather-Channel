@@ -41,10 +41,13 @@ try{
     countries = result.rows;
     console.log(result.rows);
     const firstResponse = await axios.get(weatherURL);
-    const secondResponse = await axios.get(timeURL)
+    const secondResponse = await axios.get(timeURL);
+    const weather = JSON.stringify(firstResponse.data,null, 2);
+    const timeZone = JSON.stringify(secondResponse.data, null, 2);
+
     res.render('index', {
-        weather: firstResponse.data,
-        timeZone: secondResponse.data,
+        weather: weather,
+        timeZone: timeZone,
         countries: countries
     });
 }

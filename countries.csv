@@ -1,0 +1,189 @@
+Capital City,Country,Time Zone
+Kabul,Afghanistan,Kabul/Asia
+Tirana,Albania,Tirane/Europe
+Algiers,Algeria,Algiers/Africa
+Andorra la Vella,Andorra,Andorra/Europe
+Luanda,Angola,Luanda/Africa
+Saint John's,Antigua and Barbuda,Antigua/America
+Buenos Aires,Argentina,Buenos_Aires/America
+Yerevan,Armenia,Yerevan/Asia
+Canberra,Australia,Sydney/Australia
+Vienna,Austria,Vienna/Europe
+Baku,Azerbaijan,Baku/Asia
+Nassau,Bahamas,Nassau/America
+Manama,Bahrain,Bahrain/Asia
+Dhaka,Bangladesh,Dhaka/Asia
+Bridgetown,Barbados,Barbados/America
+Minsk,Belarus,Minsk/Europe
+Brussels,Belgium,Brussels/Europe
+Belmopan,Belize,Belize/America
+Porto-Novo,Benin,Porto-Novo/Africa
+Thimphu,Bhutan,Thimphu/Asia
+La Paz,Bolivia,La_Paz/America
+Sarajevo,Bosnia and Herzegovina,Sarajevo/Europe
+Gaborone,Botswana,Gaborone/Africa
+Brasilia,Brazil,Sao_Paulo/America
+Bandar Seri Begawan,Brunei,Brunei/Asia
+Sofia,Bulgaria,Sofia/Europe
+Ouagadougou,Burkina Faso,Ouagadougou/Africa
+Gitega,Burundi,Bujumbura/Africa
+Phnom Penh,Cambodia,Phnom_Penh/Asia
+Yaounde,Cameroon,Douala/Africa
+Ottawa,Canada,Toronto/America
+Praia,Cape Verde,Cape_Verde/Atlantic
+Bangui,Central African Republic,Bangui/Africa
+N'Djamena,Chad,Ndjamena/Africa
+Santiago,Chile,Santiago/America
+Beijing,China,Shanghai/Asia
+Bogota,Colombia,Bogota/America
+Moroni,Comoros,Comoro/Indian
+Brazzaville,Republic of the Congo,Brazzaville/Africa
+Kinshasa,Democratic Republic of the Congo,Kinshasa/Africa
+San Jose,Costa Rica,Costa_Rica/America
+Yamoussoukro,Ivory Coast,Abidjan/Africa
+Zagreb,Croatia,Zagreb/Europe
+Havana,Cuba,Havana/America
+Nicosia,Cyprus,Nicosia/Asia
+Prague,Czech Republic,Prague/Europe
+Copenhagen,Denmark,Copenhagen/Europe
+Djibouti,Djibouti,Djibouti/Africa
+Roseau,Dominica,Dominica/America
+Santo Domingo,Dominican Republic,Santo_Domingo/America
+Quito,Ecuador,Guayaquil/America
+Cairo,Egypt,Cairo/Africa
+San Salvador,El Salvador,El_Salvador/America
+Malabo,Equatorial Guinea,Malabo/Africa
+Asmara,Eritrea,Asmara/Africa
+Tallinn,Estonia,Tallinn/Europe
+Mbabane,Eswatini,Mbabane/Africa
+Addis Ababa,Ethiopia,Addis_Ababa/Africa
+Suva,Fiji,Fiji/Pacific
+Helsinki,Finland,Helsinki/Europe
+Paris,France,Paris/Europe
+Libreville,Gabon,Libreville/Africa
+Banjul,Gambia,Banjul/Africa
+Tbilisi,Georgia,Tbilisi/Asia
+Berlin,Germany,Berlin/Europe
+Accra,Ghana,Accra/Africa
+Athens,Greece,Athens/Europe
+Saint George's,Grenada,Grenada/America
+Guatemala City,Guatemala,Guatemala/America
+Conakry,Guinea,Conakry/Africa
+Bissau,Guinea-Bissau,Bissau/Africa
+Georgetown,Guyana,Guyana/America
+Port-au-Prince,Haiti,Port-au-Prince/America
+Tegucigalpa,Honduras,Tegucigalpa/America
+Budapest,Hungary,Budapest/Europe
+Reykjavik,Iceland,Reykjavik/Atlantic
+New Delhi,India,Kolkata/Asia
+Jakarta,Indonesia,Jakarta/Asia
+Tehran,Iran,Tehran/Asia
+Baghdad,Iraq,Baghdad/Asia
+Dublin,Ireland,Dublin/Europe
+Jerusalem,Israel,Jerusalem/Asia
+Rome,Italy,Rome/Europe
+Kingston,Jamaica,Jamaica/America
+Tokyo,Japan,Tokyo/Asia
+Amman,Jordan,Amman/Asia
+Nur-Sultan,Kazakhstan,Almaty/Asia
+Nairobi,Kenya,Nairobi/Africa
+Kuwait City,Kuwait,Kuwait/Asia
+Bishkek,Kyrgyzstan,Bishkek/Asia
+Vientiane,Laos,Vientiane/Asia
+Riga,Latvia,Riga/Europe
+Beirut,Lebanon,Beirut/Asia
+Maseru,Lesotho,Maseru/Africa
+Monrovia,Liberia,Monrovia/Africa
+Tripoli,Libya,Tripoli/Africa
+Vaduz,Liechtenstein,Vaduz/Europe
+Vilnius,Lithuania,Vilnius/Europe
+Luxembourg City,Luxembourg,Luxembourg/Europe
+Skopje,North Macedonia,Skopje/Europe
+Antananarivo,Madagascar,Antananarivo/Indian
+Lilongwe,Malawi,Blantyre/Africa
+Kuala Lumpur,Malaysia,Kuala_Lumpur/Asia
+Male,Maldives,Maldives/Indian
+Bamako,Mali,Bamako/Africa
+Valletta,Malta,Malta/Europe
+Nouakchott,Mauritania,Nouakchott/Africa
+Port Louis,Mauritius,Mauritius/Indian
+Mexico City,Mexico,Mexico_City/America
+Chisinau,Moldova,Chisinau/Europe
+Monaco,Monaco,Monaco/Europe
+Ulaanbaatar,Mongolia,Ulaanbaatar/Asia
+Podgorica,Montenegro,Podgorica/Europe
+Rabat,Morocco,Casablanca/Africa
+Maputo,Mozambique,Maputo/Africa
+Naypyidaw,Myanmar,Yangon/Asia
+Windhoek,Namibia,Windhoek/Africa
+Kathmandu,Nepal,Kathmandu/Asia
+Amsterdam,Netherlands,Amsterdam/Europe
+Wellington,New Zealand,Auckland/Pacific
+Managua,Nicaragua,Managua/America
+Niamey,Niger,Niamey/Africa
+Abuja,Nigeria,Lagos/Africa
+Oslo,Norway,Oslo/Europe
+Muscat,Oman,Muscat/Asia
+Islamabad,Pakistan,Karachi/Asia
+Panama City,Panama,Panama/America
+Port Moresby,Papua New Guinea,Port_Moresby/Pacific
+Asuncion,Paraguay,Asuncion/America
+Lima,Peru,Lima/America
+Manila,Philippines,Manila/Asia
+Warsaw,Poland,Warsaw/Europe
+Lisbon,Portugal,Lisbon/Europe
+Doha,Qatar,Qatar/Asia
+Bucharest,Romania,Bucharest/Europe
+Moscow,Russia,Moscow/Europe
+Kigali,Rwanda,Kigali/Africa
+Basseterre,Saint Kitts and Nevis,St_Kitts/America
+Castries,Saint Lucia,St_Lucia/America
+Kingstown,Saint Vincent and the Grenadines,St_Vincent/America
+Apia,Samoa,Apia/Pacific
+San Marino,San Marino,San_Marino/Europe
+Sao Tome,Sao Tome and Principe,Sao_Tome/Africa
+Riyadh,Saudi Arabia,Riyadh/Asia
+Dakar,Senegal,Dakar/Africa
+Belgrade,Serbia,Belgrade/Europe
+Victoria,Seychelles,Mahe/Indian
+Freetown,Sierra Leone,Freetown/Africa
+Singapore,Singapore,Singapore/Asia
+Bratislava,Slovakia,Bratislava/Europe
+Ljubljana,Slovenia,Ljubljana/Europe
+Honiara,Solomon Islands,Guadalcanal/Pacific
+Mogadishu,Somalia,Mogadishu/Africa
+Pretoria,South Africa,Johannesburg/Africa
+Seoul,South Korea,Seoul/Asia
+Juba,South Sudan,Juba/Africa
+Madrid,Spain,Madrid/Europe
+Colombo,Sri Lanka,Colombo/Asia
+Khartoum,Sudan,Khartoum/Africa
+Paramaribo,Suriname,Paramaribo/America
+Stockholm,Sweden,Stockholm/Europe
+Bern,Switzerland,Zurich/Europe
+Damascus,Syria,Damascus/Asia
+Taipei,Taiwan,Taipei/Asia
+Dushanbe,Tajikistan,Dushanbe/Asia
+Dodoma,Tanzania,Dar_es_Salaam/Africa
+Bangkok,Thailand,Bangkok/Asia
+Dili,Timor-Leste,Dili/Asia
+Lome,Togo,Lome/Africa
+Nuku'alofa,Tonga,Tongatapu/Pacific
+Port of Spain,Trinidad and Tobago,Port_of_Spain/America
+Tunis,Tunisia,Tunis/Africa
+Ankara,Turkey,Istanbul/Europe
+Ashgabat,Turkmenistan,Ashgabat/Asia
+Kampala,Uganda,Kampala/Africa
+Kyiv,Ukraine,Kiev/Europe
+Abu Dhabi,United Arab Emirates,Dubai/Asia
+London,United Kingdom,London/Europe
+Washington,United States,New_York/America
+Montevideo,Uruguay,Montevideo/America
+Tashkent,Uzbekistan,Tashkent/Asia
+Port Vila,Vanuatu,Efate/Pacific
+Vatican City,Vatican City,Vatican/Europe
+Caracas,Venezuela,Caracas/America
+Hanoi,Vietnam,Ho_Chi_Minh/Asia
+Sanaa,Yemen,Aden/Asia
+Lusaka,Zambia,Lusaka/Africa
+Harare,Zimbabwe,Harare/Africa
