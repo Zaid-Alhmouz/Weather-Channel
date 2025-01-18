@@ -39,7 +39,7 @@ try{
 
     const result = await db.query("SELECT * FROM capital_timezones");
     countries = result.rows;
-    console.log(result.rows);
+
     const firstResponse = await axios.get(weatherURL);
     const secondResponse = await axios.get(timeURL);
     const weather = JSON.stringify(firstResponse.data,null, 2);

@@ -3,20 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Forecast</title>
+    <title>The Weather Channel - Main Page</title>
+
+
+    <link rel = "stylesheet"
+    href = "./css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class = "title">
     <p>The Weather Channel</p>
     </div>
-<div class = "logo">
+    <form action="#" method="get">
+        <div class="search-bar">
+            <input type="search" name="countrySearch" placeholder="Search for city weather" autofocus>
+        </div>
+        <input class = "search-submit" type = "submit" value="Search">
+    </form>
 
+<div class = "logo">
+<img src = "./images/WebsiteLogo.png">
 </div>
 </header>
 <main>
     <div class = "current-day-forecast">
+        <div class = "timezone">
+            <p></p>
+        </div>
+        <div class = "temp">
+            <p></p>
+        </div>
+        <div class = "weather-description">
+            <p></p>
+        </div>
+        <div class = "weather-logo">
+            <img src ="#">
+        </div>
+    </div>
 
+    <div class="weather-detail">
+        
     </div>
 
     <div class = "five-days-forecast">
@@ -25,7 +55,7 @@
 </main>
 
 <footer>
-    
+
 </footer>
 </body>
 </html>
