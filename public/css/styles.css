@@ -26,18 +26,13 @@ header {
 main {
     padding: 20px 0;
     margin: 0;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     flex: 1;
 }
 
-footer {
-    width: 100%;
-    margin-top: auto;
-}
+/* Header start */
 
 header * {
     margin: 5px 0 0 0; 
@@ -46,6 +41,7 @@ header * {
 header .title{
     margin-top: 20px;
     font-weight: bold;
+    font-size: 24px;
 }
 header .search-bar{
     margin-top: 20px;
@@ -92,3 +88,119 @@ header form .search-submit:hover{
     cursor: pointer;
     box-shadow: 0 0 7px #050505;
 }
+
+/* header end */
+
+/* Start of current-day-forecast */
+
+.current-day-forecast{
+    width: 100%;
+    height: 500px;
+    border: none;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #262525;
+}
+.current-day-forecast .weather-logo{
+    float: right;
+    margin-right: 50px;
+    margin-top: 100px;
+    border: none;
+    
+}
+.current-day-forecast .weather-logo img{
+    opacity: 80%;
+    border: none;
+    width: 100px;
+    height: 100px;
+
+}
+
+.current-day-forecast .timezone{
+    margin: 0;
+    padding: 0;
+    background-color: #262525;
+    opacity: 50%;
+    width: 100%;
+    height: 30px;
+    float: top;
+    text-align: center;
+}
+.current-day-forecast .timezone p{
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Noto Sans';
+    font-size: 15px;
+    font-weight: bold;
+    color:#f8f8f8
+}
+.current-day-forecast .description{
+    margin: 0;
+    padding: 20px 0 10px 50px;
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.current-day-forecast .description .temp p{
+    font-size: 80px;
+    color:#f8f8f8;
+    font-weight: bold;
+    text-shadow: 2px 2px #262525;
+}
+
+.current-day-forecast .description .weather-description p{
+    font-size: 40px;
+    color: #f8f8f8;
+    font-weight: bold;
+    text-shadow: 2px 2px #262525;
+}
+
+/* End of current-day-forecast */
+
+/* Start of the detailed forecast section */
+
+.weather-detail {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    border: none;
+    opacity: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #262525;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.weather-detail p{
+font-size: 15px;
+font-weight: bold;
+color:#1d1c1c;
+}
+
+.weather-detail .title{
+    font-size: 36px;
+    font-weight: bold;
+    color:#1d1c1c;
+}
+
+/* End of the detailed forecast section */
+
+/* Start of the footer */
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    height: 50px;
+    background-color: #1353ba;
+    text-align: center;
+}
+
+footer p{
+    padding: 10px 0 0 0;
+    margin: 0;
+    color: #f8f8f8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* End of the footer */
