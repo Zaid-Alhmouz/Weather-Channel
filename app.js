@@ -87,12 +87,16 @@ app.get("/", async (req, res) => {
 
 app.post("/search", async (req, res) => {
     try {
-        const city = req.body.city.trim(); // Get city 
+        let city = req.body.city.trim();  
         if (!city) {
             return res.render("error", { message: "City name cannot be empty" });
         }
+        const updatedCity = city.toLowerCase(); 
+        const firstLetter = city.charAt(0).toUpperCase();
+        const finalCity = firstLetter + updatedCity.substr(1, updatedCity.length);
+        
 
-        const dbResult = await db.query("SELECT timezone FROM capital_timezones WHERE city = $1", [city]);
+        const dbResult = await db.query("SELECT timezone FROM capital_timezones WHERE city = $1", [finalCity]);
 
         if (dbResult.rowCount === 0) {
             return res.render("error", { message: "City not found in the database" });
