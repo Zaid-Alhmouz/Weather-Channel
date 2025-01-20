@@ -7,12 +7,12 @@ import pg from "pg";
 dotenv.config();
 
 const db = new pg.Client({
-    user: "postgres",
-    host: "localhost",
-    database: "countries_timezone",
-    password: "2262003",
-    port: 5432,
+    connectionString: process.env.DATABASE_URL, 
+    ssl: {
+        rejectUnauthorized: false 
+    }
 });
+
 
 db.connect();
 
@@ -175,6 +175,8 @@ function GetMainWeatherImage(mainWeather) {
             return "./images/sunny.jpg";
         case "Rain":
             return "./images/rainy.jpg";
+        case "Haze": 
+        return "./images/haze.jpg"
         default:
             return "./images/snowy.jpg";
     }
@@ -189,6 +191,8 @@ function GetSubWeatherImage(mainWeather) {
             return "./images/sun.png";
         case "Rain":
             return "./images/rainy.png";
+        case "Haze": 
+        return "./images/haze.png"
         default:
             return "./images/snowy.png";
     }
