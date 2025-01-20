@@ -160,8 +160,9 @@ app.post("/search", async (req, res) => {
 
 
 app.listen(PORT, () => {
-    console.log(`Server is listening on localhost:${PORT}`);
+    console.log(`Server is listening on port ${PORT}`);
 });
+
 
 function GetYear() {
     return new Date().getFullYear();
